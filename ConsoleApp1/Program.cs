@@ -39,6 +39,7 @@ namespace ConsoleApplication1
             Console.WriteLine("--------------------------");
             Console.WriteLine("To find Area of the Circle:");
             AreaCircle();
+            Console.ReadKey();
         }
     }
 }

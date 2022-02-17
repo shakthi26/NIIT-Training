@@ -73,64 +73,21 @@ namespace BankApplication
         }
     }
 
-    class Savings
+    class Savings 
     {
-        int amount, balance = 0;
-        static List<Customer> l = new List<Customer>();
-        public void display()
-        {
-            Customer c1 = new Customer()
-            {
-                name = "Shakthi",
-                age = 23,
-                gender = "male",
-                address = "Chennai",
-                contact = "3451278909"
-
-            };
-            Customer c2 = new Customer()
-            {
-                name = "John",
-                age = 26,
-                gender = "male",
-                address = "Bangalore",
-                contact = "7825962909"
-
-            };
-            Customer c3 = new Customer()
-            {
-                name = "Divya",
-                age = 27,
-                gender = "female",
-                address = "Coimbatore",
-                contact = "7532850589"
-
-            };
-
-            l.Add(c1);
-            l.Add(c2);
-            l.Add(c3);
-
-        }
-        public void Deposit(Customer c1)
+        int amount, balance = 0;     
+           
+    public void Deposit(Customer c1)
         {
             Console.WriteLine("Enter the amount to deposit");
-            amount = Convert.ToInt32(Console.ReadLine());
-            //if (l.Count > 0)
-            //{
-            //    l[0].balance = balance;
-            //}
+            amount = Convert.ToInt32(Console.ReadLine());            
             c1.balance = c1.balance + amount;
             Console.WriteLine("Total Balance : {0}", c1.balance);
         }
         public void Withdraw(Customer c1)
         {
             Console.WriteLine("Enter the amount to withdraw");
-            amount = Convert.ToInt32(Console.ReadLine());
-            //if (l.Count > 0)
-            //{
-            //    l[0].balance = balance;
-            //}
+            amount = Convert.ToInt32(Console.ReadLine());            
             c1.balance = c1.balance - amount;
             Console.WriteLine("Total Balance : {0}", c1.balance);
         }
@@ -140,10 +97,7 @@ namespace BankApplication
             c1.balance = c1.balance - 500;
             Console.WriteLine("Total Balance : {0}", c1.balance);
             Console.WriteLine();
-            //if (l.Count > 0)
-            //{
-            //    l[0].balance = balance;
-            //}
+            
         }
 
     }
@@ -209,7 +163,6 @@ namespace BankApplication
             int choice = 0, n, count = 0;
             int CustChoice = 0;
             Savings s = new Savings();
-            s.display();
             Current c = new Current();
             Child ch = new Child();
             Customer c1 = null;
