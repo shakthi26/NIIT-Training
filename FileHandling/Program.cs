@@ -31,6 +31,21 @@ namespace FileHandling
                 Console.WriteLine(File.ReadAllText(filepath));
             }
         }
+
+        public void copy()
+        {
+            string src = "C:\\First.txt";
+            string des = "D:\\First.txt";
+            try
+            {
+                File.Move(src, des);
+                File.Copy(des,src);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e);
+            }
+        }
     }
     class Program
     {
@@ -38,6 +53,7 @@ namespace FileHandling
         {
             WriteData w = new WriteData();
             w.data();
+            w.copy();
             Console.ReadKey();
         }
     }
