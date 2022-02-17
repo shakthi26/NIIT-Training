@@ -1,7 +1,0 @@
-C:\Users\adminvm.adminvm\source\repos\LeapYear\bin\Debug\LeapYear.exe.config
-C:\Users\adminvm.adminvm\source\repos\LeapYear\bin\Debug\LeapYear.exe
-C:\Users\adminvm.adminvm\source\repos\LeapYear\bin\Debug\LeapYear.pdb
-C:\Users\adminvm.adminvm\source\repos\LeapYear\obj\Debug\LeapYear.csprojAssemblyReference.cache
-C:\Users\adminvm.adminvm\source\repos\LeapYear\obj\Debug\LeapYear.csproj.CoreCompileInputs.cache
-C:\Users\adminvm.adminvm\source\repos\LeapYear\obj\Debug\LeapYear.exe
-C:\Users\adminvm.adminvm\source\repos\LeapYear\obj\Debug\LeapYear.pdb

@@ -1,7 +1,0 @@
-C:\Users\adminvm.adminvm\source\repos\MinMaxArray\bin\Debug\MinMaxArray.exe.config
-C:\Users\adminvm.adminvm\source\repos\MinMaxArray\bin\Debug\MinMaxArray.exe
-C:\Users\adminvm.adminvm\source\repos\MinMaxArray\bin\Debug\MinMaxArray.pdb
-C:\Users\adminvm.adminvm\source\repos\MinMaxArray\obj\Debug\MinMaxArray.csprojAssemblyReference.cache
-C:\Users\adminvm.adminvm\source\repos\MinMaxArray\obj\Debug\MinMaxArray.csproj.CoreCompileInputs.cache
-C:\Users\adminvm.adminvm\source\repos\MinMaxArray\obj\Debug\MinMaxArray.exe
-C:\Users\adminvm.adminvm\source\repos\MinMaxArray\obj\Debug\MinMaxArray.pdb
