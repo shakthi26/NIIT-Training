@@ -116,6 +116,10 @@ namespace BankApplication
         {
             Console.WriteLine("Enter the amount to deposit");
             amount = Convert.ToInt32(Console.ReadLine());
+            //if (l.Count > 0)
+            //{
+            //    l[0].balance = balance;
+            //}
             c1.balance = c1.balance + amount;
             Console.WriteLine("Total Balance : {0}", c1.balance);
         }
@@ -123,6 +127,10 @@ namespace BankApplication
         {
             Console.WriteLine("Enter the amount to withdraw");
             amount = Convert.ToInt32(Console.ReadLine());
+            //if (l.Count > 0)
+            //{
+            //    l[0].balance = balance;
+            //}
             c1.balance = c1.balance - amount;
             Console.WriteLine("Total Balance : {0}", c1.balance);
         }
@@ -132,6 +140,10 @@ namespace BankApplication
             c1.balance = c1.balance - 500;
             Console.WriteLine("Total Balance : {0}", c1.balance);
             Console.WriteLine();
+            //if (l.Count > 0)
+            //{
+            //    l[0].balance = balance;
+            //}
         }
 
     }
