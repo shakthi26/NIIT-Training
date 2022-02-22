@@ -1,0 +1,71 @@
+﻿@model IEnumerable<WebApplication1.Models.Movie>
+
+@{
+    ViewBag.Title = "GetMovieDetails";
+}
+
+<h2>MovieDetails</h2>
+
+<div>
+    <h4>Movie</h4>
+    <hr />
+    <table class="table">
+
+        <tr>
+            <th>
+                Title
+            </th>
+
+            <th>
+                ReleasingDate
+            </th>
+
+            <th>
+                Genre
+            </th>
+
+            <th>
+                Rating
+            </th>
+
+            <th>
+               Price
+            </th>
+
+        </tr>
+
+
+        @foreach (var Movie in Model)
+        {
+
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(ModelMovie => Movie.Title)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(ModelMovie => Movie.ReleasingDate)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(ModelMovie => Movie.Genre)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(ModelMovie => Movie.Rating)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(ModelMovie => Movie.Price)
+                </td>
+            </tr>
+
+        }
+
+    </table>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
