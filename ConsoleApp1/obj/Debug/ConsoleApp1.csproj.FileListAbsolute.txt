@@ -1,0 +1,10 @@
+C:\Users\adminvm.adminvm\source\repos\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\adminvm.adminvm\source\repos\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\adminvm.adminvm\source\repos\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\adminvm.adminvm\source\repos\ConsoleApp1\bin\Debug\ClassLibrary2.dll
+C:\Users\adminvm.adminvm\source\repos\ConsoleApp1\bin\Debug\ClassLibrary2.pdb
+C:\Users\adminvm.adminvm\source\repos\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\adminvm.adminvm\source\repos\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\adminvm.adminvm\source\repos\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\adminvm.adminvm\source\repos\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\adminvm.adminvm\source\repos\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
