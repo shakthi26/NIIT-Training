@@ -1,0 +1,48 @@
+﻿@model WebApplication1.Models.Emp_Details
+
+@{
+    ViewBag.Title = "Signup";
+}
+
+<h2>Signup</h2>
+
+<html>
+<body>
+
+
+
+    @using (Html.BeginForm())
+    {
+        <table border="2">
+            <tr>
+                <td>@Html.LabelFor(model => model.ID)</td>
+                <td> @Html.EditorFor(model => model.ID)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.UserName)</td>
+                <td> @Html.EditorFor(model => model.UserName)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.Name)</td>
+                <td> @Html.EditorFor(model => model.Name)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.Password)</td>
+                <td> @Html.EditorFor(model => model.Password)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.Address)</td>
+                <td> @Html.EditorFor(model => model.Address)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.Contact)</td>
+                <td> @Html.EditorFor(model => model.Contact)</td>
+            </tr>
+            <tr><td> <input type="submit" value="SignUp" /></td></tr>
+        </table>
+    }
+
+
+
+</body>
+</html>
